@@ -1,11 +1,6 @@
-pub mod person{
-    pub mod student{
-        pub fn details (){
-            println!("I am a sub module function!!");
-        }
-    }
-}
+extern crate mylibrary;
+use mylibrary::person::student::details;
 fn main() {
     println!("Hello, world!");
-        person::student::details();
+    details();
 }
