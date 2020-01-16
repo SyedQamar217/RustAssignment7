@@ -1,6 +1,6 @@
-extern crate mylibrary;
-use mylibrary::person::student::details;
+mod lib;
+use lib::person::student::details;
 fn main() {
-    println!("Hello, world!");
+    println!("wait..........");
     details();
 }
